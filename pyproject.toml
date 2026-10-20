@@ -1,0 +1,8 @@
+[project]
+name = "sample-piss-plugin"
+version = "0.1.0"
+description = "Gives each item its length in words, and a keyword saying it came from git"
+dependencies = ["humanize==4.16.0"]
+
+[project.entry-points."piss.plugins"]
+git-sample = "sample_piss_plugin:GitSample"
