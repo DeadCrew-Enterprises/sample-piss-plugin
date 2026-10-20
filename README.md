@@ -1,6 +1,6 @@
 # sample-piss-plugin
 
-A sample plugin for [PISS](https://github.com/crioux/piss), installed from this repository's URL.
+A sample plugin for [PISS](https://github.com/DeadCrew-Enterprises/piss), installed from this repository's URL.
 Its import feature `git-sample.length` gives each item:
 
 - `git-sample.length`: how long a video or recording is, in words ("2 minutes"), by
@@ -11,7 +11,7 @@ Its import feature `git-sample.length` gives each item:
 Install it on a site as an admin:
 
 ```
-piss python install https://github.com/crioux/sample-piss-plugin.git
+piss python install https://github.com/DeadCrew-Enterprises/sample-piss-plugin.git
 ```
 
 then turn it on in the Plugins panel. PISS installs `humanize` into the plugin's own folder and
